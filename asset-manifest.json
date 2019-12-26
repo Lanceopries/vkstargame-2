@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/vkstargame-2/static/css/main.d8cc0e82.chunk.css",
-    "main.js": "/vkstargame-2/static/js/main.991e37c7.chunk.js",
-    "main.js.map": "/vkstargame-2/static/js/main.991e37c7.chunk.js.map",
+    "main.css": "/vkstargame-2/static/css/main.235a89e2.chunk.css",
+    "main.js": "/vkstargame-2/static/js/main.719f2d9b.chunk.js",
+    "main.js.map": "/vkstargame-2/static/js/main.719f2d9b.chunk.js.map",
     "runtime-main.js": "/vkstargame-2/static/js/runtime-main.213884e3.js",
     "runtime-main.js.map": "/vkstargame-2/static/js/runtime-main.213884e3.js.map",
     "static/css/2.4e89ce74.chunk.css": "/vkstargame-2/static/css/2.4e89ce74.chunk.css",
-    "static/js/2.aa839ff8.chunk.js": "/vkstargame-2/static/js/2.aa839ff8.chunk.js",
-    "static/js/2.aa839ff8.chunk.js.map": "/vkstargame-2/static/js/2.aa839ff8.chunk.js.map",
+    "static/js/2.021c8de9.chunk.js": "/vkstargame-2/static/js/2.021c8de9.chunk.js",
+    "static/js/2.021c8de9.chunk.js.map": "/vkstargame-2/static/js/2.021c8de9.chunk.js.map",
     "index.html": "/vkstargame-2/index.html",
-    "precache-manifest.a77c9d723cc17423fb68d3aa34825d22.js": "/vkstargame-2/precache-manifest.a77c9d723cc17423fb68d3aa34825d22.js",
+    "precache-manifest.2fd2cac0588bd6c4a5188bfd6b1469cc.js": "/vkstargame-2/precache-manifest.2fd2cac0588bd6c4a5188bfd6b1469cc.js",
     "service-worker.js": "/vkstargame-2/service-worker.js",
     "static/css/2.4e89ce74.chunk.css.map": "/vkstargame-2/static/css/2.4e89ce74.chunk.css.map",
-    "static/css/main.d8cc0e82.chunk.css.map": "/vkstargame-2/static/css/main.d8cc0e82.chunk.css.map",
+    "static/css/main.235a89e2.chunk.css.map": "/vkstargame-2/static/css/main.235a89e2.chunk.css.map",
     "static/media/sokol.png": "/vkstargame-2/static/media/sokol.f2f8376e.png"
   }
 }
