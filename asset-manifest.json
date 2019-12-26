@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/vkstargame-2/static/css/main.55b86c5f.chunk.css",
+    "main.js": "/vkstargame-2/static/js/main.8d8d5471.chunk.js",
+    "main.js.map": "/vkstargame-2/static/js/main.8d8d5471.chunk.js.map",
+    "runtime-main.js": "/vkstargame-2/static/js/runtime-main.213884e3.js",
+    "runtime-main.js.map": "/vkstargame-2/static/js/runtime-main.213884e3.js.map",
+    "static/css/2.4e89ce74.chunk.css": "/vkstargame-2/static/css/2.4e89ce74.chunk.css",
+    "static/js/2.7d77f0d6.chunk.js": "/vkstargame-2/static/js/2.7d77f0d6.chunk.js",
+    "static/js/2.7d77f0d6.chunk.js.map": "/vkstargame-2/static/js/2.7d77f0d6.chunk.js.map",
+    "index.html": "/vkstargame-2/index.html",
+    "precache-manifest.0ce3d1133dcfcac5e12cd8beb165a8ef.js": "/vkstargame-2/precache-manifest.0ce3d1133dcfcac5e12cd8beb165a8ef.js",
+    "service-worker.js": "/vkstargame-2/service-worker.js",
+    "static/css/2.4e89ce74.chunk.css.map": "/vkstargame-2/static/css/2.4e89ce74.chunk.css.map",
+    "static/css/main.55b86c5f.chunk.css.map": "/vkstargame-2/static/css/main.55b86c5f.chunk.css.map",
+    "static/media/sokol.png": "/vkstargame-2/static/media/sokol.f2f8376e.png"
+  }
+}
