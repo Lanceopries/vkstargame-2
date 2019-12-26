@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fe29da08272a4c8faf6cae56c409b1e8",
+    "revision": "ef611535a1ec2f95f665830b8d420e11",
     "url": "/vkstargame-2/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vkstargame-2/static/css/2.4e89ce74.chunk.css"
   },
   {
-    "revision": "088607ec92b6cf11d15b",
+    "revision": "ff0345ab76ae19d359dc",
     "url": "/vkstargame-2/static/css/main.3f4353b7.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vkstargame-2/static/js/2.d26df7e3.chunk.js"
   },
   {
-    "revision": "088607ec92b6cf11d15b",
-    "url": "/vkstargame-2/static/js/main.cc7c4fcf.chunk.js"
+    "revision": "ff0345ab76ae19d359dc",
+    "url": "/vkstargame-2/static/js/main.5bdef335.chunk.js"
   },
   {
     "revision": "cac7295eb93766ab397b",
