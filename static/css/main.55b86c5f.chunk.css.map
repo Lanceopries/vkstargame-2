@@ -1,1 +1,0 @@
-{"version":3,"sources":["Sokol.css"],"names":[],"mappings":"AAAA,OACE,aAAc,CACd,SAAU,CACV,eAAgB,CAChB,gBACF","file":"main.55b86c5f.chunk.css","sourcesContent":[".Sokol {\n  display: block;\n  width: 30%;\n  max-width: 240px;\n  margin: 20px auto;\n}\n"]}
