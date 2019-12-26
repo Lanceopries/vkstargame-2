@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "abe13901350e38627e427646e36f9390",
+    "revision": "a0920fd6b490ed5411a4e19a0f2b6d38",
     "url": "/vkstargame-2/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vkstargame-2/static/css/2.4e89ce74.chunk.css"
   },
   {
-    "revision": "e7c894a2bda9512108a6",
+    "revision": "76407deab2bd57467502",
     "url": "/vkstargame-2/static/css/main.586f7c82.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vkstargame-2/static/js/2.996a9ee9.chunk.js"
   },
   {
-    "revision": "e7c894a2bda9512108a6",
-    "url": "/vkstargame-2/static/js/main.14869696.chunk.js"
+    "revision": "76407deab2bd57467502",
+    "url": "/vkstargame-2/static/js/main.d506fa56.chunk.js"
   },
   {
     "revision": "cac7295eb93766ab397b",
@@ -28,7 +28,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vkstargame-2/static/media/sokol.f2f8376e.png"
   },
   {
-    "revision": "c82ef41f7c65718e23a74f6ee2c53948",
-    "url": "/vkstargame-2/static/media/tie.c82ef41f.png"
+    "revision": "2ddd1cd26947c175036577a5e6d58a8b",
+    "url": "/vkstargame-2/static/media/tie.2ddd1cd2.png"
   }
 ]);

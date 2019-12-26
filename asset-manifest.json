@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/vkstargame-2/static/css/main.586f7c82.chunk.css",
-    "main.js": "/vkstargame-2/static/js/main.14869696.chunk.js",
-    "main.js.map": "/vkstargame-2/static/js/main.14869696.chunk.js.map",
+    "main.js": "/vkstargame-2/static/js/main.d506fa56.chunk.js",
+    "main.js.map": "/vkstargame-2/static/js/main.d506fa56.chunk.js.map",
     "runtime-main.js": "/vkstargame-2/static/js/runtime-main.213884e3.js",
     "runtime-main.js.map": "/vkstargame-2/static/js/runtime-main.213884e3.js.map",
     "static/css/2.4e89ce74.chunk.css": "/vkstargame-2/static/css/2.4e89ce74.chunk.css",
     "static/js/2.996a9ee9.chunk.js": "/vkstargame-2/static/js/2.996a9ee9.chunk.js",
     "static/js/2.996a9ee9.chunk.js.map": "/vkstargame-2/static/js/2.996a9ee9.chunk.js.map",
     "index.html": "/vkstargame-2/index.html",
-    "precache-manifest.c1f9aaebe0dcd41eedd783e4651a3e9c.js": "/vkstargame-2/precache-manifest.c1f9aaebe0dcd41eedd783e4651a3e9c.js",
+    "precache-manifest.39329db1536461df43c4ec64d2a51762.js": "/vkstargame-2/precache-manifest.39329db1536461df43c4ec64d2a51762.js",
     "service-worker.js": "/vkstargame-2/service-worker.js",
     "static/css/2.4e89ce74.chunk.css.map": "/vkstargame-2/static/css/2.4e89ce74.chunk.css.map",
     "static/css/main.586f7c82.chunk.css.map": "/vkstargame-2/static/css/main.586f7c82.chunk.css.map",
     "static/media/sokol.png": "/vkstargame-2/static/media/sokol.f2f8376e.png",
-    "static/media/tie.png": "/vkstargame-2/static/media/tie.c82ef41f.png"
+    "static/media/tie.png": "/vkstargame-2/static/media/tie.2ddd1cd2.png"
   }
 }
