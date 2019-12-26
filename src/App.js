@@ -6,6 +6,8 @@ import '@vkontakte/vkui/dist/vkui.css';
 
 import Home from './panels/Home';
 import Sokol from './panels/Sokol';
+import TieF from './panels/TieF';
+import TikToe from './panels/TikToe';
 
 const App = () => {
 	const [activePanel, setActivePanel] = useState('home');
@@ -40,6 +42,8 @@ const App = () => {
 		<View activePanel={activePanel} popout={popout}>
 			<Home id='home' fetchedUser={fetchedUser} go={go} />
 			<Sokol id='sokol' go={go} />
+			<TieF id='tieF' go={go} />
+			<TikToe id='tiktoe' go={go} />
 		</View>
 	);
 }

@@ -7,6 +7,9 @@ import HeaderButton from '@vkontakte/vkui/dist/components/HeaderButton/HeaderBut
 import Icon28ChevronBack from '@vkontakte/icons/dist/28/chevron_back';
 import Icon24Back from '@vkontakte/icons/dist/24/back';
 
+import Group from "@vkontakte/vkui/dist/components/Group/Group";
+import Cell from "@vkontakte/vkui/dist/components/Cell/Cell";
+
 import sokol from '../img/sokol.png';
 import './Sokol.css';
 
@@ -22,6 +25,13 @@ const Sokol = props => (
         Тысячелетний сокол 
 		</PanelHeader>
 		<img className="Sokol" src={sokol} alt="Тысячелетний сокол"/>
+		<Group title="Тысячелетний сокол">
+		  <Cell multiline>Вымышленный космический корабль во вселенной «Звёздных войн»,
+		  	пилотировавшийся Ханом Соло и его помощником Чубаккой. Изначально капитаном «Сокола»
+			считался Лэндо Калриссиан, но из-за проигрыша в честной игре, как утверждал Хан Соло в V эпизоде, он стал обладателем корабля и звания капитана.
+			Фигурирует в фильме про Хана Соло, а также в IV, V, VI, VII, VIII и IX эпизодах киносаги «Звёздные войны» (также на несколько мгновений появляется в III эпизоде), кроме того присутствует в телефильме «Звездные войны:
+			праздничный спецвыпуск», а также во многих комиксах, журналах и книгах о вселенной «Звёздных войн».</Cell>
+	  	</Group>
 	</Panel>
 );
 
