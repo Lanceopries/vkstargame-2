@@ -28,12 +28,12 @@ const Home = ({ id, go, fetchedUser }) => (
       </Div>
       <Div>
         <Button size="xl" level="2" onClick={go} data-to="sokol">
-          Тысячелетний сокол и информация о нём
+          Тысячелетний сокол
         </Button>
       </Div>
       <Div>
         <Button size="xl" level="2" onClick={go} data-to="tieF">
-          TIE Fighter и информация о нём
+          TIE Fighter
         </Button>
       </Div>
     </Group>

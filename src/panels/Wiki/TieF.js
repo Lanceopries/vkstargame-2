@@ -10,8 +10,8 @@ import Icon24Back from "@vkontakte/icons/dist/24/back";
 import Group from "@vkontakte/vkui/dist/components/Group/Group";
 import Cell from "@vkontakte/vkui/dist/components/Cell/Cell";
 
-import tieF from "../img/tie.png";
-import "./Styles/Tie.css";
+import tieF from "../../img/tie.png";
+import "../Styles/Tie.css";
 
 const osName = platform();
 

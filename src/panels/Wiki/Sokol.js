@@ -10,8 +10,8 @@ import Icon24Back from '@vkontakte/icons/dist/24/back';
 import Group from "@vkontakte/vkui/dist/components/Group/Group";
 import Cell from "@vkontakte/vkui/dist/components/Cell/Cell";
 
-import sokol from '../img/sokol.png';
-import './Sokol.css';
+import sokol from '../../img/sokol.png';
+import '../Styles/Sokol.css';
 
 const osName = platform();
 
