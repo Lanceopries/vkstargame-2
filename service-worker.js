@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/vkstargame-2/precache-manifest.cb812aeeb9d517a12f43a8887c1e12d5.js"
+  "/vkstargame-2/precache-manifest.b483cad06f398f6371a9ab6f5d796bc8.js"
 );
 
 self.addEventListener('message', (event) => {
