@@ -2,7 +2,7 @@ import React from 'react';
 import sokol from '../../img/sokol.png';
 import tie from '../../img/tie.png';
 
-import '../Sokol.css';
+import '../Styles/Sokol.css';
 
 function Square(props) {
 	  return (

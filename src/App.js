@@ -5,8 +5,8 @@ import ScreenSpinner from '@vkontakte/vkui/dist/components/ScreenSpinner/ScreenS
 import '@vkontakte/vkui/dist/vkui.css';
 
 import Home from './panels/Home';
-import Sokol from './panels/Sokol';
-import TieF from './panels/TieF';
+import Sokol from './panels/Wiki/Sokol';
+import TieF from './panels/Wiki/TieF';
 import TikToe from './panels/TikToe';
 
 const App = () => {
