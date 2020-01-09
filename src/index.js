@@ -11,6 +11,8 @@ import App from './App';
 //prod
 connect.send('VKWebAppInit');
 
+connect.send("VKWebAppGetCommunityAuthToken", {"app_id": 7258199, "group_id": 1, "scope": "app_widget"});
+
 // Если вы хотите, чтобы ваше веб-приложение работало в оффлайне и загружалось быстрее,
 // расскомментируйте строку с registerServiceWorker();
 // Но не забывайте, что на данный момент у технологии есть достаточно подводных камней

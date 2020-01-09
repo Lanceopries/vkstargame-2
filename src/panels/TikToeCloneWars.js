@@ -13,12 +13,12 @@ import Div from "@vkontakte/vkui/dist/components/Div/Div";
 import Board from "./TikToe/TikToeCommon";
 import "./Styles/TikToe.css";
 
-import sokol from "../img/xwing.png";
-import tie from "../img/tie.png";
+import sokol from "../img/tiktoe/rep.png";
+import tie from "../img/tiktoe/cis.png";
 
 const osName = platform();
 
-const TikToe = props => {
+const TikToeCloneWars = props => {
   const [state, setState] = useState({
     history: [
       {
@@ -77,7 +77,7 @@ const TikToe = props => {
   } else {
     status =
       "Следующий ход: " +
-      (state.xIsNext ? "Новая Республика" : "Галактическая Империя");
+      (state.xIsNext ? "Галактическая Республика" : "Конфедерация Независимых Систем");
   }
 
   return (
@@ -89,7 +89,7 @@ const TikToe = props => {
           </HeaderButton>
         }
       >
-        Звездные Нолики - Гражданская Война
+        Звездные Нолики - Войны Клонов
       </PanelHeader>
 
       <Group>
@@ -115,7 +115,7 @@ const TikToe = props => {
   );
 };
 
-TikToe.propTypes = {
+TikToeCloneWars.propTypes = {
   id: PropTypes.string.isRequired,
   go: PropTypes.func.isRequired
 };
@@ -134,10 +134,10 @@ function calculateWinner(squares, xIsNext) {
   for (let i = 0; i < lines.length; i++) {
     const [a, b, c] = lines[i];
     if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c]) {
-      return xIsNext ? "Галактическая Империя" : "Новая Республика";
+      return xIsNext ? "Конфедерация Независимых Систем" : "Галактическая Республика";
     }
   }
   return null;
 }
 
-export default TikToe;
+export default TikToeCloneWars;

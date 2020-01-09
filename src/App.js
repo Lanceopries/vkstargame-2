@@ -8,6 +8,7 @@ import Home from './panels/Home';
 import Sokol from './panels/Wiki/Sokol';
 import TieF from './panels/Wiki/TieF';
 import TikToe from './panels/TikToe';
+import TikToeCloneWars from './panels/TikToeCloneWars';
 
 const App = () => {
 	const [activePanel, setActivePanel] = useState('home');
@@ -21,8 +22,12 @@ const App = () => {
 				schemeAttribute.value = data.scheme ? data.scheme : 'client_light';
 				document.body.attributes.setNamedItem(schemeAttribute);
 			}
+
+			console.log('type', type);
+			console.log('data', data);
 		});
 		async function fetchData() {
+			// Uncomment after dev
 			const user = await connect.sendPromise('VKWebAppGetUserInfo');
 			setUser(user);
 			setPopout(null);
@@ -44,6 +49,7 @@ const App = () => {
 			<Sokol id='sokol' go={go} />
 			<TieF id='tieF' go={go} />
 			<TikToe id='tiktoe' go={go} />
+			<TikToeCloneWars id='tiktoeCloneWars' go={go}/>
 		</View>
 	);
 }
