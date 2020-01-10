@@ -9,6 +9,7 @@ import Sokol from './panels/Wiki/Sokol';
 import TieF from './panels/Wiki/TieF';
 import TikToe from './panels/TikToe';
 import TikToeCloneWars from './panels/TikToeCloneWars';
+import Wiki from './panels/Wiki/Wiki';
 
 const App = () => {
 	const [activePanel, setActivePanel] = useState('home');
@@ -28,8 +29,8 @@ const App = () => {
 		});
 		async function fetchData() {
 			// Uncomment after dev
-			const user = await connect.sendPromise('VKWebAppGetUserInfo');
-			setUser(user);
+			// const user = await connect.sendPromise('VKWebAppGetUserInfo');
+			// setUser(user);
 			setPopout(null);
 		}
 		fetchData();
@@ -50,6 +51,7 @@ const App = () => {
 			<TieF id='tieF' go={go} />
 			<TikToe id='tiktoe' go={go} />
 			<TikToeCloneWars id='tiktoeCloneWars' go={go}/>
+			<Wiki id='wiki' go={go}/>
 		</View>
 	);
 }

@@ -19,7 +19,7 @@ const TieF = props => (
   <Panel id={props.id}>
     <PanelHeader
       left={
-        <HeaderButton onClick={props.go} data-to="home">
+        <HeaderButton onClick={props.go} data-to="wiki">
           {osName === IOS ? <Icon28ChevronBack /> : <Icon24Back />}
         </HeaderButton>
       }

@@ -20,16 +20,7 @@ import galacticWar from "../img/cards/card_tiktoe_galactic_war.jpg";
 
 const Home = ({ id, go, fetchedUser }) => (
   <Panel id={id}>
-    <PanelHeader>Star Wars Galaxy v1.0</PanelHeader>
-    {fetchedUser && (
-      <Group title="Диалог">
-        <Cell>
-          Приветствую, {`${fetchedUser.first_name} ${fetchedUser.last_name}`},
-          на первой галактической платформе Star Wars Galaxy
-        </Cell>
-      </Group>
-    )}
-
+    <PanelHeader>Star Wars Galaxy</PanelHeader>
     <Group>
       <Gallery slideWidth="250px" align="left" style={{ height: 400 }}>
         <div
@@ -87,25 +78,14 @@ const Home = ({ id, go, fetchedUser }) => (
             <Button
               size="xl"
               level="overlay_secondary"
+              onClick={go}
+              data-to="wiki"
             >
-              Энциклопедия (скоро)
+              Энциклопедия
             </Button>
             </Div>
         </div>
       </Gallery>
-    </Group>
-
-    <Group title="Навигация">
-      <Div>
-        <Button size="xl" level="2" onClick={go} data-to="sokol">
-          Тысячелетний сокол
-        </Button>
-      </Div>
-      <Div>
-        <Button size="xl" level="2" onClick={go} data-to="tieF">
-          TIE Fighter
-        </Button>
-      </Div>
     </Group>
   </Panel>
 );
